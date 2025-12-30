@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.20.0 (2025-12-30)
+
+Full Changelog: [v1.19.0...v1.20.0](https://github.com/anthropics/anthropic-sdk-go/compare/v1.19.0...v1.20.0)
+
+### Features
+
+* **encoder:** support bracket encoding form-data object members ([eaaeadf](https://github.com/anthropics/anthropic-sdk-go/commit/eaaeadf6dd67119ca4406f0fb0337c16d9011b8f))
+
+
+### Bug Fixes
+
+* **mcp:** correct code tool API endpoint ([6c8a083](https://github.com/anthropics/anthropic-sdk-go/commit/6c8a0831e6f084d316179a9288c4fa1c5420ea59))
+* rename param to avoid collision ([6d1cf75](https://github.com/anthropics/anthropic-sdk-go/commit/6d1cf75d5a407d5eb19c70e3778ab82bca74d0d5))
+
+
+### Chores
+
+* add float64 to valid types for RegisterFieldValidator ([b6bec73](https://github.com/anthropics/anthropic-sdk-go/commit/b6bec73c5ed18698884b990fc3dc6398a3784177))
+* **ci:** Add Claude Code GitHub Workflow ([a151836](https://github.com/anthropics/anthropic-sdk-go/commit/a151836056343974d15eda64180fc776ba0f169d))
+* elide duplicate aliases ([c8e2ee1](https://github.com/anthropics/anthropic-sdk-go/commit/c8e2ee14de53b5636eadccb2a890e4464e30b8d4))
+* **internal:** codegen related update ([931c976](https://github.com/anthropics/anthropic-sdk-go/commit/931c9769f1ff0557a8eff333463e1847b15f7953))
+
 ## 1.19.0 (2025-11-24)
 
 Full Changelog: [v1.18.1...v1.19.0](https://github.com/anthropics/anthropic-sdk-go/compare/v1.18.1...v1.19.0)
